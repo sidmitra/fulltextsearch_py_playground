@@ -3,3 +3,5 @@
 *.gz
 .python-version
 .ipynb_checkpoints/
+*.env
+.DS_Store

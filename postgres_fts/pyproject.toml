@@ -2,7 +2,7 @@
 name = "postgres-fts"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Sid Mitra <github@sidmitra.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "postgres_fts"}]
@@ -10,8 +10,11 @@ packages = [{include = "postgres_fts"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 datasets = "^2.13.0"
+fastdownload = "^0.0.7"
 jupyterlab = "^4.0.2"
-
+pandas = "^2.0.3"
+psycopg = {extras = ["binary"], version = "^3.1.9"}
+termcolor = "^2.3.0"
 
 [build-system]
 requires = ["poetry-core"]
